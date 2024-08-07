@@ -61,6 +61,10 @@ export class Setting {
 
   @ApiProperty()
   @Column({ type: 'text', default: null })
+  qiniuOss: string; // 七牛云OSS 上传配置
+
+  @ApiProperty()
+  @Column({ type: 'text', default: null })
   smtpHost: string; // SMTP 地址
 
   @ApiProperty()

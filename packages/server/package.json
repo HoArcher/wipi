@@ -52,6 +52,7 @@
     "nuid": "^1.1.0",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
+    "qiniu": "^7.12.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",

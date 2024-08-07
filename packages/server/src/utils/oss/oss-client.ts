@@ -1,5 +1,5 @@
 export abstract class OssClient {
-  config: Record<string, unknown>;
+  config: Record<string, string>;
 
   constructor(config) {
     this.config = config;
