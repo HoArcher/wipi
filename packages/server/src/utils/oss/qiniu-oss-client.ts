@@ -30,12 +30,12 @@ export class QiniuyunOssClient extends OssClient {
         if (resp.statusCode === 200) {
           return `${this.config.domain}/${data.key}`;
         } else {
-          console.log(resp.statusCode);
-          console.log(data);
+          return '';
         }
       })
       .catch((err) => {
         console.log('put failed', err);
+        return '';
       });
   }
 
